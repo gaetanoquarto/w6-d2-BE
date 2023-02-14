@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "163d7eac-cf4c-45b7-8435-34cdf727ed9d",
+		"name": "W6-D2-BE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24868828"
+	},
+	"item": [
+		{
+			"name": "EN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzioni/en",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzioni",
+						"en"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzioni/it",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzioni",
+						"it"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ERROR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzioni/es",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzioni",
+						"es"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
